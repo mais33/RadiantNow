@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crystal Clear Skin Clinic</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Crystal Clear Skin Clinic</div>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <ul class="menu">
+        <li><a href="#about">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Reveal Your Most Radiant Skin Today</h1>
+      <p>Embrace Renewal and Radiance</p>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <p>
+        At Crystal Clear Skin Clinic, we specialize in personalized skin treatments designed just
+        for you. With advanced techniques and expert care, we help you achieve radiant, healthy
+        skin in a welcoming studio in Amsterdam. Your confidence is our priority.
+      </p>
+    </section>
+
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Acne Facial Treatments</h3>
+        <p>
+          We offer targeted acne treatments tailored to address your specific skin concerns. Every
+          treatment begins with a thorough consultation and analysis, with additional guidance on
+          nutrition and skincare products.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Clearskin Laser Rejuvenation</h3>
+        <p>
+          Our Harmony XL Pro Clearskin Laser rejuvenates your skin by improving texture, reducing
+          wrinkles, and minimizing pores while stimulating collagen production.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Skin Analysis</h3>
+        <p>
+          The sQinno skin analysis system reveals detailed insights into your skin’s health,
+          allowing for customized treatment plans and recommendations.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Massage</h3>
+        <p>
+          Enjoy relaxing massages that improve circulation, reduce muscle tension, and provide the
+          ultimate rejuvenation.
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <h2>Gallery</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://plus.unsplash.com/premium_photo-1661645623435-41d9869758d9?q=80&w=2828&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Facial Treatment" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://plus.unsplash.com/premium_photo-1663039841668-5638c2938153?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Laser Treatment" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1556228852-6bf19d1b1fc5?q=80&w=2533&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Skin Analysis" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Relaxing Massage" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <button id="scrollTopBtn" title="Back to Top">▲</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
